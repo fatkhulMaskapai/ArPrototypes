@@ -1,0 +1,17 @@
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\GAToUnityCallbacks.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroEnd.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroHeaderBegin.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroSourceBegin.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAApplication.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAConfiguration.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGADebug.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAEvents.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAInput.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGASoftKeyboard.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGASoftKeyboardCallbacks.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGATypes.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAVersion.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGACallbacks.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAConfigurationCallbacks.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAKeyEventCallbacks.h
+E:\__PROJECT_UNITY\__GITHUB\__Freelance\ArPrototypes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAMotionEventCallbacks.h
