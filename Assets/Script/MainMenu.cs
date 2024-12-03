@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MainMenu : MonoBehaviour
+public class MainMenu : Singleton<MainMenu>
 {
     [SerializeField] float TimeToShowHeader;
     [SerializeField] float headerAnimTime;
@@ -13,11 +13,13 @@ public class MainMenu : MonoBehaviour
     [SerializeField, Header("BUTTON")] Button bussBtn;
     [SerializeField] Button rollerBtn;
     [SerializeField] Button dollBtn;
+    [SerializeField] Button backBtn;
     [SerializeField] float offsetX;
     [SerializeField] float animTimeButton;
     [SerializeField] RectTransform[] rects;
     [SerializeField] string notAvailableTxt = "This feature is not available yet";
     [SerializeField] string[] nextScenes;
+    [SerializeField] GameObject[] panels;
     void Start()
     {
         headerTxt.localScale = Vector3.zero;
@@ -25,7 +27,9 @@ public class MainMenu : MonoBehaviour
 
         bussBtn.onClick.AddListener(() =>
         {
-            SceneManager.LoadScene(nextScenes[0]);
+            EnablePanel(false, true);
+            ObjectAr.Instance.Inits();
+            //SceneManager.LoadScene(nextScenes[0]);
         });
         rollerBtn.onClick.AddListener(() =>
         {
@@ -35,7 +39,18 @@ public class MainMenu : MonoBehaviour
         {
             SSTools.ShowMessage(notAvailableTxt, SSTools.Position.top, SSTools.Time.twoSecond);
         });
+        backBtn.onClick.AddListener(() =>
+        {
+            EnablePanel();
+            //SceneManager.LoadScene(backScene);
+        });
+        EnablePanel(true);
         StartCoroutine(AnimButton());
+    }
+    public void EnablePanel(bool p0 = true, bool p1 = false)
+    {
+        panels[0].SetActive(p0);
+        panels[1].SetActive(p1);
     }
     IEnumerator AnimButton()
     {

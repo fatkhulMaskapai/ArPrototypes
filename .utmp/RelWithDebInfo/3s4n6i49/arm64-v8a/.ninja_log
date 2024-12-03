@@ -1,10 +1,19 @@
 # ninja log v5
 19	1170	7545672888731205	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	42442a71915b2e74
+36	1313	7545672890301416	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	303d45a9f6f30425
 10	1208	7545672889033919	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	84e833c4482516a0
 24	1210	7545672889189970	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	534eeeae52144ed9
-30	1296	7545672890129715	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6e170651eb56bc42
-36	1313	7545672890301416	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	303d45a9f6f30425
 1	1319	7545672890356585	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	bbf0c8e39d880ae
+30	1296	7545672890129715	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6e170651eb56bc42
 14	1925	7545672895836364	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	2e50b0ac751b3bd4
-6	2378	7545672899307974	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e8b34b5675f177f9
 2379	2652	7545672903576817	E:/__PROJECT_UNITY/__GITHUB/__Freelance/ArPrototypes/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3s4n6i49/obj/arm64-v8a/libgame.so	3fb144a93e74490e
+6	2378	7545672899307974	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e8b34b5675f177f9
+4	2199	7546374074967318	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	84e833c4482516a0
+22	2243	7546374075084060	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	534eeeae52144ed9
+34	2302	7546374080317539	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6e170651eb56bc42
+13	2407	7546374080367156	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	bbf0c8e39d880ae
+48	2408	7546374080367156	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	303d45a9f6f30425
+18	2409	7546374080357139	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	42442a71915b2e74
+9	2417	7546374081456970	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e8b34b5675f177f9
+40	2420	7546374080367156	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	2e50b0ac751b3bd4
+2420	4351	7546374102907062	E:/__PROJECT_UNITY/__GITHUB/__Freelance/ArPrototypes/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3s4n6i49/obj/arm64-v8a/libgame.so	3fb144a93e74490e

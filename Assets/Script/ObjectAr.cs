@@ -2,11 +2,13 @@ using DG.Tweening;
 using System.Collections;
 using UnityEngine;
 
-public class Object : MonoBehaviour
+public class ObjectAr : Singleton<ObjectAr>
 {
     public Material objectMaterial;
     private Color baseColor;
+    bool havebaseColor = false;
     [SerializeField] Light customLight;
+    [SerializeField] float firstLight = 1;
     [SerializeField] float waitTimeToAction;
     [SerializeField, Header("ROTATE")] bool isRotate;
     [SerializeField] Vector3 targetRotate;
@@ -15,9 +17,16 @@ public class Object : MonoBehaviour
     [SerializeField] AudioClip clip;
     [SerializeField] AudioSource _as;
     [SerializeField] float curAlpha = 1;
+    Quaternion firstRot;
     void Start()
     {
         baseColor = objectMaterial.GetColor("_BaseColor");
+        firstRot = transform.rotation;
+    }
+    public void Inits()
+    {
+        transform.rotation = firstRot;
+        customLight.intensity = firstLight;
         StartCoroutine(WaitAction());
     }
     IEnumerator WaitAction()
